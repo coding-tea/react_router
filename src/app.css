@@ -22,7 +22,7 @@ body{
 }
 
 .app{
-    width: 40%;
+    width: 50%;
     padding: 20px 40px;
     background-color: #001429;
     color: white;
@@ -30,6 +30,37 @@ body{
     box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-hr{
-    margin: 20px 0;
+header{
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+header a{
+    color: #bdd269;
+    text-decoration: none;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.menu a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.outlet{
+    padding: 60px 0;
+    text-align: center;
 }
