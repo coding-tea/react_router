@@ -1,5 +1,14 @@
-import './app.css';
+//dependencies
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
+//css
+import './app.css';
+
+//components
+import Menu from './components/Menu';
+import Page1 from './components/Page1';
+import Page2 from './components/Page2';
+import Page3 from './components/Page3';
 
 function App() {
 
@@ -7,10 +16,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element='' >
-            <Route path='page1' element='' />
-            <Route path='page2' element='' />
-            <Route path='page3' element='' />
+          <Route path='/' element={<Menu />} >
+            <Route path='page1' element={<Page1 />} />
+            <Route path='page2' element={<Page2 />} />
+            <Route path='page3' element={<Page3 />} />
           </Route>
         </Routes>
       </BrowserRouter>
